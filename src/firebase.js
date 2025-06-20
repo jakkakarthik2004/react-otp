@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "aIzaSyArvrNC44WT6BkiI76oOyYVyf68WMTLI0o",
+    apiKey: "AIzaSyArvrNC44WT6BkiI76oOyYVyf68WMTLI0o",
     authDomain: "otp-login-b825f.firebaseapp.com",
     projectId: "otp-login-b825f",
     storageBucket: "otp-login-b825f.appspot.com",
