@@ -14,7 +14,7 @@ class App extends React.Component {
     });
   };
 
-  
+
   configureCaptcha = () => {
     window.recaptchaVerifier = new RecaptchaVerifier(auth, 'sign-in-button', {
       'size': 'invisible',
@@ -25,7 +25,6 @@ class App extends React.Component {
       defaultCountry : "IN"
     });
   };
-
   onSignInSubmit = (e) => {
     e.preventDefault();
     this.configureCaptcha();
